@@ -1,0 +1,1929 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:  hsl(217, 57%, 27%);
+    background-color: white;
+    width: 100vw;
+    height: 120px;
+    padding-top: 20px;
+    z-index: 2;
+}
+
+.move-joor{
+    height: 120px;
+
+}
+
+.logo{
+    /* background-color: plum; */
+    width: 20%;
+    padding-left: 20px;
+}
+
+.logo img{
+    width: 270px;
+    object-fit: cover;
+    margin-top: 2vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: blueviolet; */
+    font-size: 10px;
+    width: 70%;
+    color:  hsl(217, 64%, 35%);
+}
+
+.inputs .num input{
+    width: 120px;
+}
+
+.inputs{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+}
+
+
+.inputs input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid  hsl(217, 64%, 35%);
+}
+
+
+.nav-btn{
+    width: 120px;
+    height: 33px;
+    background-color: tan;
+    color: white;
+    border: 0;
+    margin-top: 13px;
+}
+
+button:hover{
+    background-color:  #BF8751;
+}
+
+.pages{
+    width: 90%;
+    /* background-color: red; */
+    font-size: 16px;
+    /* margin: auto; */
+}
+
+.pages a{
+    text-decoration: none;
+    color: hsl(217, 64%, 35%);
+}
+
+
+.pages a:hover{
+    color: #C4C9D2;
+}
+
+.pages ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.side-menu{
+    background-color: #16315A;
+    width: 7%;
+    height: 140px;
+    margin-top: -20px;
+    /* padding-top: 20px; */
+}
+
+.main-pic{
+    background-image: url(./pics/brownwood_social.jpg);
+    /* background-color: pink; */
+    width: 98.7vw;
+    height: 82.3vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+
+.main-text{
+    background-color: rgba(255, 255, 255, 0.919);
+    width: 600px;
+    height: 190px;
+    color: hsl(217, 64%, 35%);
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 28vh;
+}
+
+.main-text h1{
+    color: hsl(217, 57%, 27%);
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    /* background-color: pink; */
+}
+
+.para a{
+    text-decoration: none;
+    border: 1px solid hsl(217, 64%, 35%);
+    /* width: 120px; */
+    /* height: 46px; */
+    padding: 12px;
+    margin-left: 60px;
+    text-align: center;
+    color: #16315A;
+}
+
+.para a:hover{
+    background-color: #16315A;
+    color: whitesmoke;
+}
+
+.heading{
+    display: flex;
+    padding-left: 60px;
+    /* background-color: palevioletred; */
+    height: 95px;
+
+}
+
+.line{
+    /* background-color: red; */
+    width: 2px;
+    height: 55%;
+    margin-top: 25px;
+    border-left: 1px solid hsl(217, 57%, 27%);
+    border-right: 3px solid hsl(217, 57%, 27%);
+}
+
+
+/* ------------------------------EXPERIENCE-------------------------- */
+
+.experience{
+    width: 100%;
+    height: 86vh;
+    background-color: #D5D0CA;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience img{
+    width: 780px;
+    height: 510px;
+    padding-top: 50px;
+    padding-left: 85px;
+    /* z-index: 1; */
+    position: relative;
+
+}
+
+.experience-text{
+    background-color: #FEFEFE;
+    width:45vw;
+    height:445px ;
+    /* z-index: 1; */
+    position: absolute;
+    margin-left: 47vw;
+    margin-top: 12vh;
+}
+
+.experience-heading{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 30px;
+}
+
+.experience-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 75%;
+    margin-top: 12px;
+    margin-left: 48px ;
+    border-left: 1px solid #16315A;
+    border-right: 2px solid #16315A;
+}
+
+.experience-head{
+    /* background-color: yellow; */
+    padding-left: 15px;
+    color: #16315A;
+}
+
+.experience-head p{
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: -2px;
+}
+
+.experience-head h2{
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 7px;
+}
+
+.experience-word{
+    width: 84%;
+    height: 30;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    color: #808280;
+    /* background-color: yellow; */
+    padding-bottom: 25px;
+    margin-left:48px ;
+    margin-top: -10px;
+}
+
+
+.experience-link a{
+    text-decoration: none;
+    border: 1px solid hsl(217, 64%, 35%);
+    /* width: 120px; */
+    /* height: 46px; */
+    padding: 12px;
+    margin-left: 60px;
+    text-align: center;
+    color: #16315A;
+}
+
+.experience-link a:hover{
+    background-color:#16315A ;
+    color: whitesmoke;
+}
+
+/* -------------------------------ENGAGE------------------------------ */
+
+.engage{
+    width: 100%;
+    height: 90vh;
+    /* background-color: plum; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.engage-img{
+    background-image: url(./pics/engage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 520px;
+    margin-left: 35vw;
+    margin-top: 50px;
+    /* padding-top: 50px; */
+    object-fit: cover;
+    /* padding-right: 40vw; */
+    /* z-index: 1; */
+    position: absolute;
+    /* margin-right: -200px; */
+    /* display: none; */
+}
+
+.engage-text{
+    background-color: #16315A;
+    width:45vw;
+    height:375px ;
+    z-index: 1;
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 18vh;
+    /* display: none; */
+}
+
+.engage-heading{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 30px;
+}
+
+
+.engage-head{
+    /* background-color: yellow; */
+    padding-left: 15px;
+    color: #1A225B;
+}
+
+.engage-head p{
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: -2px;
+    color: whitesmoke;
+
+}
+
+.engage-head h2{
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 7px;
+    color: whitesmoke;
+
+}
+
+.engage-word{
+    width: 84%;
+    height: 30;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    font-size: 17px;
+    color: whitesmoke;
+    /* background-color: yellow; */
+    padding-bottom: 25px;
+    margin-left:48px ;
+    margin-top: -13px;
+}
+
+.engage-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 75%;
+    margin-top: 12px;
+    margin-left: 48px ;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-left: 36px;
+    margin-top: -5px;
+    /* background-color: pink; */
+}
+
+/* .engage-link{
+    width: fit-content;
+    height: 100%;
+    border: 1px solid white;
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+.engage-link a{
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    /* height: 46px; */
+    padding: 12px;
+    /* margin-left: 60px; */
+    text-align: center;
+    color: whitesmoke;
+}
+
+.engage-link a:hover{
+    background-color:whitesmoke;
+    color: #16315A;
+}
+
+
+
+/* -------------------------------------DOUBLE BOX--------------------- */
+
+.double-box{
+    width: 98.7vw;
+    height: 99vh;
+    background-color: #D5D0CA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    /* display: none; */
+
+}
+
+.taste{
+    width: 45%;
+    height: 93%;
+    background-color: #16315A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-left: 3vw;
+}
+
+.taste img{
+    width: 100%;
+    height: 260px ;
+    object-fit: cover;
+}
+
+.taste-text{
+    width: 100%;
+    height: 62.3%;
+    /* background-color: purple; */
+    margin-top: -33.3vh;
+
+}
+
+.taste-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 96%;
+    margin-left: 48px ;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+}
+
+
+.taste-heading{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 70px;
+}
+
+.taste-head h2{
+    font-size: 34px;
+    font-weight: 100;
+    /* background-color: red; */
+    width: 240px;
+    color: whitesmoke;
+    margin-top: -17px;
+    margin-left: 15px;
+}
+
+.taste-head p{
+    font-size: 20px;
+    font-style: italic ;
+    color: whitesmoke;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+
+.taste-word{
+    width: 84%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    color: whitesmoke;
+    /* background-color: yellow; */
+    padding-bottom: 10px;
+    margin-left:48px ;
+    margin-top: -10px;
+}
+
+.taste-link{
+    margin-top: 27px;
+}
+
+.taste-link a{
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    padding: 12px;
+    margin-left: 48px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.taste-link a:hover{
+    background-color:whitesmoke;
+    color: #16315A;
+}
+
+.relax{
+    width: 45%;
+    height: 93%;
+    background-color: #16315A;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-right: 3vw;
+
+}
+
+.relax img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.relax-text{
+    width: 100%;
+    height: 62.3%;
+    /* background-color: brown; */
+    /* margin-top: -33.2vh; */
+    /* display: none; */
+}
+
+.relax-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 96%;
+    margin-left: 48px ;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+}
+
+
+.relax-heading{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 45px;
+}
+
+.relax-head h2{
+    font-size: 34px;
+    font-weight: 100;
+    /* background-color: #16315A; */
+    width: 270px;
+    color: whitesmoke;
+    margin-top: -17px;
+    margin-left: 15px;
+}
+
+.relax-head p{
+    font-size: 20px;
+    font-style: italic ;
+    color: whitesmoke;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+
+.relax-word{
+    width: 84%;
+    /* height: 30; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    color: whitesmoke;
+    /* background-color: yellow; */
+    margin-left:48px ;
+    margin-top: -13px;
+}
+
+.relax-link{
+    margin-top: 30px;
+}
+
+.relax-link a{
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    /* height: 46px; */
+    padding: 12px;
+    margin-left: 48px;
+    /* margin-top: 40px; */
+    text-align: center;
+    color: whitesmoke;
+}
+
+.relax-link a:hover{
+    background-color:whitesmoke;
+    color: #16315A;
+}
+
+/* ------------------------------SOCIAL EVENT-------------------------- */
+
+.social{
+    width: 98.7vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* display: none; */
+}
+
+.social-img{
+    background-image: url(./pics/glass.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 470px;
+    margin-left: 70px;
+    margin-top: 50px;
+    /* padding-top: 50px; */
+    object-fit: cover;
+    /* padding-right: 40vw; */
+    /* z-index: 1; */
+    position: absolute;
+    /* margin-right: -200px; */
+    /* display: none; */
+}
+
+.social-text{
+    background-color: #16315A;
+    width:52vw;
+    height:375px ;
+    /* z-index: 1; */
+    position: absolute;
+    margin-left: 41vw;
+    margin-top: 15vh;
+    /* display: none; */
+}
+
+.social-heading{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 30px;
+}
+
+
+.social-head{
+    /* background-color: yellow; */
+    padding-left: 15px;
+    color: #1A225B;
+}
+
+.social-head p{
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: -2px;
+    color: whitesmoke;
+
+}
+
+.social-head h2{
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 12px;
+    color: whitesmoke;
+
+}
+
+.social-word{
+    width: 84%;
+    height: 30;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    color: whitesmoke;
+    /* background-color: yellow; */
+    padding-bottom: 25px;
+    margin-left:48px ;
+    margin-top: -35px;
+}
+
+.social-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 48%;
+    margin-top: 12px;
+    margin-left: 48px ;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+}
+
+.social-link a{
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    /* height: 46px; */
+    padding: 12px;
+    margin-left: 48px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.social-link a:hover{
+    background-color:whitesmoke;
+    color: #16315A;
+}
+
+
+/* ----------------------------SIGN-UP---------------------------------- */
+
+.sign-up{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 110px;
+    background-color: #16315A;
+    color: #CDA176;
+    border-bottom: 1px solid #CDA176;
+}
+
+.sign-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: brown; */
+    width: 53%;
+    height: 70px;
+    font-size: 18px;
+    margin-right: 7vw;
+    margin-top: 28px;
+}
+
+.sign-form input{
+    width: 215px;
+    height: 35px;
+    background-color: #16315A;
+    border: 1px solid #CDA176;
+}
+
+.sign-up h3{
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 45px;
+}
+
+.sign-text{
+    /* background-color: orange; */
+    width: 35%;
+    padding-left: 7vw;
+}
+
+.btn{
+    background-color: #16315A;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    width: 120px;
+    height: 38px;
+    border: 1px solid #CDA176;
+    color: #CDA176;
+    margin-top: 20px;
+}
+
+/* --------------------------FOOTER----------------------------------- */
+
+.footer{
+    width: 100%;
+    height: 110px;
+    background-color: #122748;
+}
+
+
+
+/* ------------------------ABOUT---------------------- */
+
+.about-main{
+    width: 100%;
+    height: 98vh;
+    background-image: url(./pics/about2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.about-text{
+    /* background-color: pink; */
+    width: 100%;
+    height: 300px;
+    margin-top: -20px;
+}
+
+.about-heading{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 30px;
+}
+
+.about-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 100%;
+    margin-top: 12px;
+    margin-left: 48px ;
+    border-left: 1px solid #16315A;
+    border-right: 2px solid #16315A;
+}
+
+.about-head{
+    margin-left: 20px;
+    /* background-color: plum; */
+    height: 100px;
+    /* padding-bottom: 20px; */
+}
+
+.about-head p{
+    font-size: 18px;
+    font-style: italic;
+    color: #16315A;
+    /* background-color: yellow; */
+
+}
+.about-head h2{
+    font-size: 43px;
+    font-weight: 100;
+    color: #16315A;
+    margin-top: -1vh;
+    /* background-color: brown; */
+}
+
+.about-word{
+    /* background-color: palevioletred; */
+    width: 94%;
+    padding-top: 25px;
+}
+
+.about-word p{
+    margin-left: 48px;
+    /* background-color: tan; */
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #808280;
+    padding-top: 10px;
+}
+
+.green{
+    width: 98.7vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #D5D0CA;
+    /* display: none; */
+}
+
+.green-img{
+    background-image: url(./pics/green.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 470px;
+    margin-left: 70px;
+    margin-top: 50px;
+    /* padding-top: 50px; */
+    object-fit: cover;
+    /* padding-right: 40vw; */
+    /* z-index: 1; */
+    position: absolute;
+    /* margin-right: -200px; */
+    /* display: none; */
+}
+
+.green-text{
+    background-color: white;
+    width:46vw;
+    height:320px ;
+    /* z-index: 1; */
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 15vh;
+    /* display: none; */
+}
+
+.green-heading{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 30px;
+
+}
+
+
+.green-head{
+    /* background-color: yellow; */
+    padding-left: 15px;
+    color: #1A225B;
+}
+
+.green-head p{
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: -2px;
+    color: #808280;
+
+}
+
+.green-head h2{
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 7px;
+    color: #16315A;
+
+}
+
+.green-word{
+    width: 84%;
+    height: 30;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    color: #808280;
+    /* background-color: purple; */
+    padding-bottom: 25px;
+    margin-left:48px ;
+    margin-top: -19px;
+}
+
+.green-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 75%;
+    margin-top: 12px;
+    margin-left: 48px ;
+    border-left: 1px solid #16315A;
+    border-right: 2px solid #16315A;
+}
+
+/* ----------------------DIAMOND------------------------------- */
+
+.diamond{
+    width: 100%;
+    height: 90vh;
+    /* background-color: plum; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.diamond-img{
+    width: 25%;
+    height: 75%;
+    /* border: 2px solid; */
+    background-image: url(./pics/diamond.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10vh;
+    margin-right: 25vw;
+
+}
+
+.diamond-text{
+    /* background-color: blueviolet; */
+    width:40%;
+    height:320px ;
+    /* z-index: 1; */
+    /* position: absolute; */
+    margin-left: 3vw;
+    margin-top: 27vh;
+    /* display: none; */
+    /* border: 2px solid red; */
+}
+
+.diamond-heading{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    color: #16315A;
+    /* background-color: blue; */
+    /* margin-top: 30px; */
+
+}
+
+.diamond-head{
+    /* background-color: yellow; */
+    padding-left: 15px;
+    color: #1A225B;
+}
+
+.diamond-head p{
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: -2px;
+    color: #16315A;
+
+}
+
+.diamond-head h2{
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 7px;
+    color: #16315A;
+
+}
+
+
+.diamond-word{
+    /* width: 84%; */
+    height: 30;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    color: #808280;
+    /* background-color: purple; */
+    padding-bottom: 25px;
+    margin-left:48px ;
+    margin-top: -19px;
+}
+
+.diamond-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 75%;
+    margin-top: 12px;
+    margin-left: 48px ;
+    border-left: 1px solid #16315A;
+    border-right: 2px solid #16315A;
+}
+
+/* -----------------------ACCOMMODATION----------------------------- */
+
+.accommodation-main{
+    width: 100%;
+    height: 97vh;
+    background-image: url(./pics/room1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.accommodation-text{
+    /* background-color: pink; */
+    width: 100%;
+    height: 370px;
+    margin-top: -20px;
+}
+
+.accommodation-heading{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 30px;
+}
+
+.accommodation-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 100%;
+    margin-top: 12px;
+    margin-left: 7vw ;
+    border-left: 1px solid #16315A;
+    border-right: 2px solid #16315A;
+}
+
+.accommodation-head{
+    margin-left: 10px;
+    /* background-color: plum; */
+    height: 100px;
+    /* padding-bottom: 20px; */
+}
+
+.accommodation-head p{
+    font-size: 18px;
+    font-style: italic;
+    color: #16315A;
+    /* background-color: yellow; */
+
+}
+.accommodation-head h2{
+    font-size: 43px;
+    font-weight: 100;
+    color: #16315A;
+    margin-top: -1vh;
+    /* background-color: brown; */
+}
+
+.accommodation-word{
+    /* background-color: palevioletred; */
+    width: 85%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-left: 7vw;
+
+}
+
+.accommodation-word p{
+    /* margin-left: 48px; */
+    /* background-color: tan; */
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #808280;
+    padding-top: 8px;
+}
+
+.accommodation-link a{
+    text-decoration: none;
+    border: 1px solid hsl(217, 64%, 35%);
+    /* width: 120px; */
+    /* height: 46px; */
+    padding: 12px;
+    margin-left: 7vw;
+    text-align: center;
+    color: #16315A;
+    /* margin-top: 30vh; */
+}
+
+.accommodation-link a:hover{
+    background-color:#16315A ;
+    color: whitesmoke;
+}
+
+
+/*  ----------------------------ROOM OPTIONS----------------------------*/
+
+.room-options{
+    width: 100%;
+    height: 161vh;
+    background-color: #16315A;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.king .room-img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pics/king.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.queen .room-img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pics/queen.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.suite .room-img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pics/wide\ red.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.king{
+    background-color: #16315A;
+    width: 41.7%;
+    height: 500px;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+
+.queen{
+    background-color: #16315A;
+    width: 41.7%;
+    height: 500px;
+    margin-right: 7vw;
+    margin-top: 5vh;
+}
+
+.queen .room-a {
+    /* background-color: blue; */
+    width: 30vw;
+}
+
+
+.suite{
+    background-color: #16315A;
+    width: 40%;
+    height: 500px;
+    margin-left: 7vw;
+}
+
+.room-heading{
+    /* background-color: purple; */
+    height: 80px;
+    display: flex;
+}
+
+.room-line{
+    /* background-color: red; */
+    width: 2px;
+    height: 51%;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+    margin-top: 25px;
+    margin-left: 3vw;
+}
+
+.room-head h2{
+    color: whitesmoke;
+    font-size: 31px;
+    font-weight: 100;
+    padding-left: 13px;
+}
+
+.room-p{
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 3vw;
+}
+
+.room-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: palevioletred; */
+    width: 60%;
+    margin-left: 1vw;
+    padding-top: 25px;
+}
+
+.room-a a{
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+
+}
+
+
+
+
+/* -----------------------DINING------------------------------- */
+
+.dining-main{
+    width: 100%;
+    height: 96vh;
+    background-image: url(./pics/dining1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.dining-options{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 60px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.dining-page-text{
+    /* background-color: pink; */
+    width: 100%;
+    height: 370px;
+    margin-top: -20px;
+}
+
+.dining-page-heading{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    margin-top: 30px;
+}
+
+.dining-page-line {
+    /* background-color: red; */
+    width: 2px;
+    height: 100%;
+    margin-top: 12px;
+    margin-left: 7vw ;
+    border-left: 1px solid #16315A;
+    border-right: 2px solid #16315A;
+}
+
+.dining-page-head{
+    margin-left: 10px;
+    /* background-color: plum; */
+    height: 100px;
+    /* padding-bottom: 20px; */
+}
+
+.dining-page-head p{
+    font-size: 18px;
+    font-style: italic;
+    color: #16315A;
+    /* background-color: yellow; */
+
+}
+.dining-page-head h2{
+    font-size: 43px;
+    font-weight: 100;
+    color: #16315A;
+    margin-top: -1vh;
+    /* background-color: brown; */
+}
+
+.dining-page-word{
+    /* background-color: palevioletred; */
+    width: 85%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-left: 7vw;
+
+}
+
+.dining-page-word p{
+    /* margin-left: 48px; */
+    /* background-color: tan; */
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #808280;
+    padding-top: 8px;
+}
+
+.wolfgang .dining-img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pics/wolfgang.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.wolfgang{
+    background-color: #16315A;
+    width: 41.7%;
+    height: 520px;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+.wolfgang .dining-a{
+    /* background-color: yellow; */
+    width: 170px;
+    height: 30px;
+    margin-top: -20px;
+}
+
+.wolfgang .dining-heading{
+    /* background-color: purple; */
+    height: 80px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.wolfgang .dining-line{
+    /* background-color: red; */
+    width: 2px;
+    height: 86%;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+    margin-top: 25px;
+    margin-left: 3vw;
+}
+
+.wolfgang .dining-head h2{
+    color: whitesmoke;
+    font-size: 31px;
+    font-weight: 100;
+    padding-left: 13px;
+}
+
+.wolfgang .dining-p{
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 3vw;
+}
+
+.wolfgang .dining-a{
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+
+.wolfgang .dining-a a{
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+
+}
+
+
+.bar .dining-img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pics/bar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.bar{
+    background-color: #16315A;
+    width: 41.7%;
+    height: 520px;
+    margin-right: 7vw;
+    margin-top: 5vh;
+}
+
+.bar .dining-heading{
+    /* background-color: purple; */
+    height: 80px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.bar .dining-line{
+    /* background-color: red; */
+    width: 2px;
+    height: 86%;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+    margin-top: 25px;
+    margin-left: 3vw;
+}
+
+.bar .dining-head h2{
+    color: whitesmoke;
+    font-size: 31px;
+    font-weight: 100;
+    padding-left: 13px;
+}
+
+.bar .dining-p{
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 3vw;
+    width: 85%;
+}
+
+.bar .dining-a{
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.bar .dining-a a{
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+
+}
+
+.bar .dining-heading{
+    /* background-color: yellow; */
+    padding-bottom: 20px;
+    height: 50px;
+}
+
+.bar .dining-p{
+    /* background-color: brown; */
+    padding-bottom: 37px;
+}
+
+.bar .dining-a{
+    /* background-color: yellow; */
+    width: 170px;
+    height: 30px;
+    margin-top: 3vh;
+}
+
+.studio .dining-img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pics/studio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.studio{
+    background-color: #16315A;
+    width: 41.7%;
+    height: 520px;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+.studio .dining-heading{
+    /* background-color: purple; */
+    height: 80px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.studio .dining-line{
+    /* background-color: red; */
+    width: 2px;
+    height: 86%;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+    margin-top: 25px;
+    margin-left: 3vw;
+}
+
+.studio .dining-head h2{
+    color: whitesmoke;
+    font-size: 31px;
+    font-weight: 100;
+    padding-left: 13px;
+}
+
+.studio .dining-p{
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 3vw;
+}
+
+.studio .dining-a{
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.studio .dining-a a{
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+
+}
+
+.studio .dining-a{
+    /* background-color: yellow; */
+    width: 170px;
+    height: 30px;
+    margin-top: 2vh;
+}
+
+.studio .dining-heading{
+    /* background-color: orange; */
+    height: 50px;
+}
+
+.studio .dining-p{
+    /* background-color: plum; */
+    padding-top: 5px;
+    padding-bottom: 37px;
+    width: 85%;
+}
+
+.wagon .dining-img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pics/wagon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.wagon{
+    background-color: #16315A;
+    width: 41.7%;
+    height: 520px;
+    margin-right: 7vw;
+    margin-top: 5vh;
+}
+
+
+.wagon .dining-heading{
+    /* background-color: purple; */
+    height: 80px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.wagon .dining-line{
+    /* background-color: red; */
+    width: 2px;
+    height: 86%;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+    margin-top: 25px;
+    margin-left: 3vw;
+}
+
+.wagon .dining-head h2{
+    color: whitesmoke;
+    font-size: 31px;
+    font-weight: 100;
+    padding-left: 13px;
+}
+
+.wagon .dining-p{
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 3vw;
+    width: 85%;
+}
+
+.wagon .dining-a{
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+
+.wagon .dining-a a{
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+
+}
+
+.wagon .dining-line{
+    height: 94%;
+}
+
+.wagon .dining-heading{
+    /* background-color: yellow; */
+    padding-bottom: 20px;
+    height: 77px;
+}
+
+.wagon .dining-p{
+    padding-top: 5px;
+}
+
+
+.event .dining-img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pics/glass.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.event{
+    background-color: #16315A;
+    width: 41.7%;
+    height: 520px;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+.event .dining-heading{
+    color: whitesmoke;
+    /* background-color: pink; */
+    width: 60%;
+    height: 105px;
+}
+
+.event .dining-heading h2{
+    /* background-color: brown; */
+    margin-top: -11px;
+    font-size: 31px;
+    margin-left: 10px;
+    font-weight: 100;
+
+}
+
+.event .dining-heading p{
+    /* background-color: purple; */
+    margin-top: 30px;
+    font-style: italic;
+    margin-left: 12px;
+}
+
+.event .dining-line{
+    height: 96%;
+    width: 2px;
+    border-left: 1px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+    margin-top: 25px;
+    margin-left: 3vw;
+}
+
+.event .dining-a{
+    margin-top: 10vh;
+    margin-left: 3vw;
+}
+
+.event .dining-a a{
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+
+}
+
+
+.dining-a a:hover{
+    background-color: white;
+    color: #16315A;
+}
+
+
+.dining-heading{
+    /* background-color: purple; */
+    width: 70%;
+    height: 100px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+
+/* -----------------------------SPA PAGE---------------------------- */
+
+.spa-page-main{
+    width: 100%;
+    height: 96vh;
+    background-image: url(./pics/spa\ main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* ----------------------------CAREER PAGE------------------------ */
+
+.career-main{
+    width: 100%;
+    height: 97vh;
+    background-image: url(./pics/brownwood_social.jpg);
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.career-heading{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    padding-left: 10px;
+}
+
+.career-head h2{
+    font-size: 43px;
+    font-weight: 100;
+    margin-left: 15px;
+    color: #16315A;
+}
+
+.career-line{
+    /* background-color: red; */
+    border-left: 1px solid #16315A;
+    border-right: 2px solid #16315A;
+    width: 2px;
+    height: 65%;
+    margin-top: 4.5vh;
+    margin-left: 7vw;
+
+}
+
+.career-paragraph{
+    width: 90%;
+    height: fit-content;
+    /* background-color: plum; */
+    margin-left: 7vw;
+    padding-bottom: 35px;
+    color: #808280;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.career-paragraph ul{
+    width: 50%;
+    /* background-color: yellow; */
+    margin-left: -1.5vw;
+}
+
+.career-a{
+    margin-top: 7vh;
+}
+
+.career-a a{
+    /* background-color: palevioletred; */
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #16315A;
+    color: #16315A;
+}
+
+/* ------------------------------CAREER BLUE--------------------------- */
+
+.career-blue{
+    background-color: #16315A;
+    width: 100%;
+    height: 30vh;
+    padding-top: 5vh;
+}
+
+.blue-paragraph{
+    /* background-color: plum; */
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #808280;
+    width: 85%;
+    margin-left: 8vw;
+    /* margin-top: 20px; */
+    padding-top: 2px;
+    padding-left: 1vw;
+    padding-bottom: 2px;
+    line-height: 25px;
+    border-left: 1px solid whitesmoke;
+}
+
+.blue-paragraph .p2{
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 13px;
+}
+
+
+
+/* -----------------------------STAFF------------------------------- */
+
+.staff{
+    width: 100%;
+    height: fit-content;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.staff-img{
+    width: 37%;
+    height: 70vh;
+    background-image: url(./pics/staff.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 8vw;
+}
+
+.staff-text{
+    width: 40%;
+    /* border: 1px solid; */
+    margin-top: -2vh;
+    margin-right: 9vw;
+}
+
+.lady-heading{
+    /* background-color: palevioletred; */
+    display: flex;
+    height: 90px;
+}
+
+.lady-line{
+    width: 2px;
+    height: 50%;
+    margin-top: 3vh;
+    /* background-color: blue; */
+    border-left: 1px solid #16315A;
+    border-right: 2px solid #16315A;
+}
+
+.staff-text h2{
+    font-size: 31px;
+    margin-left: 10px;
+    font-weight: 100;
+    color: #16315A;
+}
+
+.staff-paragraph{
+    color: #808280;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    /* background-color: blue; */
+    margin-top: -4vh;
+}
+
