@@ -109,7 +109,7 @@ button:hover{
 }
 
 .main-pic{
-    background-image: url("./pics/brownwood_social.jpg");
+    background-image: url("../pics/brownwood_social.jpg");
     /* background-color: pink; */
     width: 98.7vw;
     height: 82.3vh;
