@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="media.css">
     <title>BBB</title>
 </head>
 <body>
@@ -13,6 +15,16 @@
             <img src="./pics/logo.jpg" alt="">
         </div>
 
+        <div class="nav-display">
+            <div class="contact">
+
+            </div>
+    
+            <div class="book-btn">
+                <a href="">BOOK NOW</a>
+            </div>
+        </div>
+
         <div class="form">
             <div class="inputs">
                 <div> 
@@ -20,7 +32,8 @@
                     <input type="name"></div>
 
                 <div>
-                    <label for="name">CHECK-OUT</label><br>
+                    <label 
+                    .for="name">CHECK-OUT</label><br>
                     <input type="name">
                 </div>
 
@@ -49,8 +62,63 @@
             </div>
         </div>
 
-        <div class="side-menu">
+        <!-- onclick="show()" -->
 
+        <!-- <div class="side-menu">
+            <div>
+                <button class="hamburger" onclick="showList()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </button>
+            </div>
+
+                <ul class="nav-bar">
+                    <li><a href="index.html">Home Page</a></li>
+                    
+                    <li><a href="about.html">About</a></li>
+                    
+                    <li><a href="accomodation.html">accommodation</a></li>
+                    
+                    <li><a href="dining.html">Dining</a></li>
+                    
+                    <li><a href="spa.html">Spa</a></li>
+                    
+                    <li><a href="event.html">Meeting & Events</a></li>
+                    
+                    <li><a href="career.html">Career</a></li>
+                </ul>
+            </nav>
+        </div> -->
+
+        <div class="container">
+
+            <div class="menu_icon_box">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+
+            <div class="box">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                    
+                        <li><a href="about.html">About</a></li>
+                    
+                        <li><a href="accomodation.html">accommodation</a></li>
+                    
+                        <li><a href="dining.html">Dining</a></li>
+                    
+                        <li><a href="spa.html">Spa</a></li>
+                    
+                        <li><a href="event.html">Meeting & Events</a></li>
+                    
+                        <li><a href="career.html">Career</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 
@@ -249,7 +317,7 @@
                 <div>
                     <label for="name">Name</label><br>
                     <input type="text">
-                </div>
+                </div><br>
 
                 <div>
                     <label for="name">Email</label><br>
@@ -265,7 +333,39 @@
         <!-- -------------------------FOOTER--------------------------- -->
 
         <div class="footer">
+            <div class="location">
+                <div>
+                    <p>3003 BROWNWOOD BOULEVARD, THE VILLAGES, FL32163</p>
+                </div>
 
+                <div>
+                    <p>352-626-1246</p>
+                </div>
+
+                <div>
+                    <p>PRIVACY POLICY</p>
+                </div>
+
+                <div class="footer-img">
+                   <div class="img-wrap">
+                        <img src="./pics/facebook.svg" alt="">
+                   </div>
+                    
+                   <div class="img-wrap">
+                        <img src="./pics/instagram.svg" alt="">
+                   </div>
+
+                    <div class="img-wrap">
+                        <img src="./pics/invision.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy 2023 Brownwood Hotel and Spa</p>
+            </div>
         </div>
+
+        <script src="script.js"></script>
 </body>
 </html>
