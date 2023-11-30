@@ -13,16 +13,17 @@ body{
     background-color: white;
     width: 100vw;
     height: 60px;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     z-index: 2;
-    background-color: thistle;
-    /* display: none; */
+    background-color: white;
 }
 
 .nav-display{
     display: initial;
     width: 30%;
-    background-color: palevioletred;
+    background-color: white;
+    margin-top: 2vh;
     display: flex;
     justify-content: space-between;
 }
@@ -32,6 +33,7 @@ body{
     width: 8px;
     height: 13px;
     margin-left: 4vw;
+    margin-top: 3vh;
     border: 2px solid #BF8751;
     background-color: whitesmoke;
 }
@@ -43,42 +45,33 @@ body{
     padding-top: 7px;
     padding-bottom: 3px;
     text-align: center;
-    background-color: yellow;
+    background-color: #CDA176;
 }
 
 .book-btn a{
     text-decoration: none;
     font-size: 10.5px;
-    background-color: orange;
-
 }
 
 .move-joor{
     height: 80px;
-    /* display: none; */
 }
 
 .logo{
-    background-color: purple;
     width: 45%;
     padding-left: 14px;
-    /* display: none; */
-
 }
 
 .logo img{
     width: 100%;
     object-fit: cover;
     margin-top: 2vh;
-    /* display: none; */
-
 }
 
 .form{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* background-color: blueviolet; */
     font-size: 10px;
     width: 70%;
     color:  hsl(217, 64%, 35%);
@@ -162,16 +155,22 @@ button:hover{
 }
 
 .container{
-    background-color: red;
+    background-color: #16315A;
     height: 100%;
     width: 15% ;
-    margin-right: 2vw;
+    margin-right: 0vw;
+    margin-top: -1.5vh;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 5px;
 }
 
 .menu_icon_box{
     width: fit-content;
     height: auto;
     margin: 7px;
+    margin-top: 3vh;
+    /* margin-right: 5px; */
 }
 
 .line1{
@@ -206,9 +205,82 @@ button:hover{
     width: 100vw;
     height: 100vh;
     right: 0;
+    margin-top: -3vh;
+    padding-bottom: 15px;
     position: absolute;
 }
 
+.side-booking{
+    width: 90px;
+    height: 17px;
+    padding: 12px;
+    margin-top: 4vh;
+    margin-left: 11vw;
+    background-color: #BF8751;
+}
+
+.side-booking button{
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: #BF8751;
+    /* background-color: #fff; */
+    /* margin: auto; */
+}
+
+nav{
+    width: 75%;
+    /* background-color: yellow; */
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 3vw;
+    /* margin-top: 20px; */
+
+}
+
+nav ul{
+    /* background-color: palevioletred; */
+    /* width: 70%; */
+    border-bottom: 1px solid white;
+    padding: 0%;
+    margin-left: auto;
+}
+
+nav ul li{
+    /* background-color: orangered; */
+    margin: 22px;
+    width: 100%;
+}
+
+nav ul li a{
+    color: #CDA176;
+    font-size: 18px;
+    padding: 0%;
+    
+}
+
+.faq{
+    color: white;
+    margin-left: 11vw;
+    padding-top: 5vh;
+}
+
+.gallery{
+    color: grey;
+    font-size: 12px;
+    margin-left: 11vw;
+
+}
+
+.side-mini-icons{
+    margin-left: 11vw;
+
+}
+
+.side-mini-icons img{
+    width: 15px;
+    height: 15px;
+}
 
 
 
@@ -221,7 +293,7 @@ button:hover{
     background-image: url("pics/brownwood_social.jpg");
     /* background-color: pink; */
     width: 100vw;
-    height: 36vh;
+    height: 46vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,7 +307,7 @@ button:hover{
     /* background-color: red; */
     width: 90% ;
     margin: auto;
-    margin-top: 8vh;
+    margin-top: 14vh;
     margin-left: 5vw;
     height: 110px;
     color: hsl(217, 64%, 35%);
@@ -320,7 +392,7 @@ button:hover{
 
 .experience{
     width: 100vw;
-    height: 620px;
+    height: 100% fit-content;
     background-color: #D5D0CA;
     /* background-color: red; */
     display: flexbox;
@@ -332,7 +404,7 @@ button:hover{
 
 .experience img{
     width: 96vw;
-    height: 20vh;
+    height: 30vh;
     padding: 0%;
     /* margin-top: -70vh; */
     margin-left: 2vw;
@@ -351,7 +423,7 @@ button:hover{
     height:fit-content ;
     margin: 0%;
     margin-left: 2vw;
-    margin-top: 20vh;
+    margin-top: 30vh;
 }
 
 .experience-heading{
@@ -476,7 +548,7 @@ button:hover{
     background-size: cover;
     background-repeat: no-repeat;
     width: 96vw;
-    height: 20vh;
+    height: 30vh;
     margin: 0%;
     margin-left: 2vw;
     /* margin-left: 35vw; */
@@ -501,7 +573,7 @@ button:hover{
     padding: 0%;
     padding-bottom: 2vh;
     /* margin-left: 6vw; */
-    /* margin-top: 18vh; */
+    margin-top: 30vh;
     /* display: none; */
 }
 
