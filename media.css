@@ -21,7 +21,7 @@ body{
 
 .nav-display{
     display: initial;
-    width: 100px;
+    width: 30%;
     background-color: palevioletred;
     display: flex;
     justify-content: space-between;
@@ -61,13 +61,13 @@ body{
 .logo{
     background-color: plum;
     width: 45%;
-    padding-left: 5px;
+    padding-left: 14px;
     /* display: none; */
 
 }
 
 .logo img{
-    width: 120px;
+    width: 100%;
     object-fit: cover;
     margin-top: 2vh;
     /* display: none; */
@@ -164,7 +164,8 @@ button:hover{
 .container{
     background-color: red;
     height: 100%;
-    width: 40px ;
+    width: 15% ;
+    margin-right: 2vw;
 }
 
 .menu_icon_box{
@@ -202,12 +203,12 @@ button:hover{
 .active{
     background-color: #16315A;
     margin-left: 0vw;
+    width: 100vw;
     height: 100vh;
     right: 0;
     position: absolute;
 }
 
-.active
 
 
 
