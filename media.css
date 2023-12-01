@@ -67,7 +67,7 @@ body{
 .logo img{
     width: 100%;
     object-fit: cover;
-    margin-top: 1vh;
+    margin-top: 0.5vh;
 }
 
 .form{
