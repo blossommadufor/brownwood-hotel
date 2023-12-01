@@ -14,7 +14,6 @@ body{
     height: 120px;
     padding-top: 20px;
     z-index: 2;
-    /* background-color: purple; */
 }
 
 .nav-display{
@@ -34,11 +33,8 @@ body{
 }
 
 .logo{
-    /* background-color: plum; */
     width: 20%;
     padding-left: 20px;
-    /* display: none; */
-
 }
 
 .logo img{
@@ -53,29 +49,21 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* background-color: blueviolet; */
     font-size: 10px;
     width: 70%;
     color:  hsl(217, 64%, 35%);
-    /* display: none; */
-
 }
 
 .inputs .num input{
     width: 120px;
-    /* display: none; */
-
 }
 
 .inputs{
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 90%;
     margin: auto;
-    /* display: none; */
-
 }
 
 
@@ -83,8 +71,6 @@ body{
     width: 200px;
     height: 30px;
     border: 1px solid  hsl(217, 64%, 35%);
-    /* display: none; */
-
 }
 
 
@@ -95,36 +81,25 @@ body{
     color: white;
     border: 0;
     margin-top: 13px;
-    /* display: none; */
 }
 
 button:hover{
     background-color:  #BF8751;
-    /* display: none; */
-
 }
 
 .pages{
     width: 90%;
-    /* background-color: red; */
     font-size: 16px;
-    /* margin: auto; */
-    /* display: none; */
-
 }
 
 .pages a{
     text-decoration: none;
     color: hsl(217, 64%, 35%);
-    /* display: none; */
-
 }
 
 
 .pages a:hover{
     color: #C4C9D2;
-    /* display: none; */
-
 }
 
 .pages ul{
@@ -229,7 +204,7 @@ nav ul li a{
     background-color: #16315A;
     margin: 20px;
     margin-top: 3%;
-    margin-left: 2vw;
+    margin-left: 1.4vw;
     position: absolute;
     border-radius: 4px;
     cursor: pointer;
@@ -255,124 +230,6 @@ nav ul li a{
 .active .line3{
     transform: translate( 0px , -15px)rotate(-45deg);
 }
-
-
-
-
-
-
-
-/* nav{
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    width: 200px;
-}
-
-.side-menu{
-    position: relative;
-    display: none;
-    background-color: pink;
-    width: 50px;
-    height: 100%;
-}
-
-.side-menu.active{
-    right: 0;
-}
-
-.nav a{
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-nav ul li {
-    color: whitesmoke;
-    text-align: right;
-    text-transform: uppercase;
-    list-style: none;
-    font-size: 16px;
-    padding: 20px 10px;
-    border-bottom: 1px solid grey;
-}
-
-.nav-bar{
-    position: fixed;
-    background-color: thistle;
-    right: 350px;
-    width: 350px;
-    height: 80vh;
-    background-color: #16315A;
-    transition: 2s;
-    display: none;
-}
-
-.hamburger .bar{
-    position: fixed;
-}
-
-.hamburger{
-    display: initial;
-    width: 30px;
-    height: 30px;
-    margin-left: -50vw;
-    transform: translateY( -50%);
-    transform: translate( -5%, -50%);
-    border: 0;
-    background: palevioletred;
-    position: fixed;
-    cursor: pointer;
-    left: -15%;
-
-
-
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
-    height: 30px;
-    width: 30px;
-    background-color: #fff;
-    transition: ease-in 1s;
-}
-
-#bar1{
-    top: 3px;
-    background: red;
-    width: 100%;
-    height: 4px;
-    margin-top: 0%;
-    margin-left: 0%;
-    transition: all .1s ease-in;
-    display: none;
-}
-
-
-#bar2{
-    top: 11px;
-    background-color: yellow;
-    width: 100%;
-    height: 4px;
-    display: none;
-    margin-top: 0%;
-
-
-}
-
-#bar3{
-    top: 19px;
-    background-color: orange;
-    width: 100%;
-    height: 4px;
-    display: none;
-    margin-top: 0%;
-
-} */
-
-
-
-
 
 .main-pic{
     background-image: url("pics/brownwood_social.jpg");
@@ -407,8 +264,6 @@ nav ul li {
 .para a{
     text-decoration: none;
     border: 1px solid hsl(217, 64%, 35%);
-    /* width: 120px; */
-    /* height: 46px; */
     padding: 12px;
     margin-left: 60px;
     text-align: center;
@@ -639,14 +494,6 @@ nav ul li {
     /* background-color: pink; */
 }
 
-/* .engage-link{
-    width: fit-content;
-    height: 100%;
-    border: 1px solid white;
-    color: whitesmoke;
-    padding-left: 15px;
-    padding-right: 15px;
-} */
 
 .engage-link a{
     text-decoration: none;
@@ -793,9 +640,6 @@ nav ul li {
 .relax-text{
     width: 100%;
     height: 62.3%;
-    /* background-color: brown; */
-    /* margin-top: -33.2vh; */
-    /* display: none; */
 }
 
 .relax-line {
