@@ -33,7 +33,7 @@ body{
     width: 8px;
     height: 13px;
     margin-left: 4vw;
-    margin-top: 3vh;
+    margin-top: 1.7vh;
     border: 2px solid #BF8751;
     background-color: whitesmoke;
 }
@@ -66,7 +66,7 @@ body{
 .logo img{
     width: 100%;
     object-fit: cover;
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 
 .form{
@@ -171,7 +171,8 @@ button:hover{
     height: auto;
     margin: 7px;
     margin-top: 3vh;
-    /* margin-right: 5px; */
+    /* background-color: #fff; */
+    margin-left: 15px;
 }
 
 .line1{
@@ -196,7 +197,7 @@ button:hover{
 .box{
     /* width: 100vw;
     height: 100vh; */
-    background-color: orangered;
+    /* background-color: orangered; */
     right: 10px;
 }
 
@@ -209,6 +210,7 @@ button:hover{
     margin-top: -3vh;
     padding-bottom: 15px;
     position: absolute;
+    transition: ease-out 0.3s;
 }
 
 .side-booking{
@@ -1150,7 +1152,7 @@ nav ul li a{
     height: fit-content;
     /* text-align: center; */
     font-size: 18px;
-    margin-left: 30%;
+    margin-left: 28%;
     /* margin-left: 17vw; */
     /* margin-top: 0vh; */
     /* display: none; */
@@ -1627,7 +1629,7 @@ nav ul li a{
 
 .accommodation-main{
     width: 100vw;
-    height: 35vh;
+    height: 45vh;
     background-image: url("pics/room1.jpg");
     background-position: center;
     background-size: cover;
@@ -1930,7 +1932,7 @@ nav ul li a{
 
 .dining-main{
     width: 100vw;
-    height: 35vh;
+    height: 45vh;
     background-image: url("pics/dining1.webp");
     background-position: center;
     background-size: cover;
@@ -2537,7 +2539,7 @@ nav ul li a{
 
 .career-main{
     width: 100vw;
-    height: 36vh;
+    height: 45vh;
     background-image: url("pics/brownwood_social.jpg");
     background-position: center;
     background-size:cover ;
@@ -2761,7 +2763,7 @@ nav ul li a{
 
 .spa-page-main{
     width: 100vw;
-    height: 36vh;
+    height: 45vh;
     background-image: url("pics/spa\ main.jpg");
     background-position: center;
     background-size: cover;
@@ -3451,7 +3453,7 @@ nav ul li a{
 
 .meeting-main{
     width: 100vw;
-    height: 35vh;
+    height: 45vh;
     background-image: url("pics/meeting1.jpg");
     background-position: center;
     background-size: cover;
@@ -3506,7 +3508,7 @@ nav ul li a{
     font-size: 22px;
     font-weight: 100;
     color: #16315A;
-    margin-top: -2vh;
+    margin-top: -2vh;padding-top: 5px;
     /* background-color: brown; */
     /* display: none; */
 
